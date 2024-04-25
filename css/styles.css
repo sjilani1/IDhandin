@@ -18,6 +18,8 @@ body {
   margin-bottom: 40px;
 }
 
+
+
 .container1 {
   display: flex;
   justify-content: space-between;
@@ -33,7 +35,7 @@ h2 {
 
 header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 3%;
 }
 
 /* .container {
@@ -74,14 +76,6 @@ header {
   padding: 2%;
 }
 
-.image-wrap {
-  background-color: #fff;
-  border-radius: '30%';
-  padding: '50px';
-  margin: '50px';
-  width : '50%';
-}
-
 .card {
   background-color: #ffffff00;
   height: 100%;
@@ -92,12 +86,12 @@ header {
 
 .sketch-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  grid-gap: 20px; /* Gap between grid items */
+  grid-template-columns: 1fr 1fr 1fr; /* Two equal-width columns */
+  grid-gap: 40px; /* Gap between grid items */
 }
 
 .sketch-item img {
-  width: 200px; /* Make images fill the grid item */
+  width: 80%; /* Make images fill the grid item */
    /* Maintain aspect ratio */
 }
 
@@ -123,7 +117,7 @@ header {
 }
 
 .figmacard h2 {
-  color:blue; 
+  color:#3E4BBF; 
 }
 
 .front,
