@@ -10,8 +10,8 @@ body {
 .wrapper {
   /* max-width: 1200px; */
   margin: 0 auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .devlink {
@@ -90,12 +90,23 @@ header {
   transform-style: preserve-3d;
 }
 
+.sketch-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  grid-gap: 20px; /* Gap between grid items */
+}
+
+.sketch-item img {
+  width: 100%; /* Make images fill the grid item */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .sectioncard {
   background-color: #13357078;
   padding: 2em;
   margin: 30px;
   height: 100%;
-  width: 100%;
+  width: auto;
   /* transition: transform 1500ms; */
   transform-style: preserve-3d;
 }
