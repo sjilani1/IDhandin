@@ -97,8 +97,8 @@ header {
 }
 
 .sketch-item img {
-  width: 100%; /* Make images fill the grid item */
-  height: auto; /* Maintain aspect ratio */
+  width: 200px; /* Make images fill the grid item */
+   /* Maintain aspect ratio */
 }
 
 .sectioncard {
@@ -109,6 +109,21 @@ header {
   width: auto;
   /* transition: transform 1500ms; */
   transform-style: preserve-3d;
+}
+
+.figmacard {
+  background-color: white;
+  padding: 2em;
+  margin: 30px;
+  height: 100%;
+  width: auto;
+  
+  /* transition: transform 1500ms; */
+  transform-style: preserve-3d;
+}
+
+.figmacard h2 {
+  color:blue; 
 }
 
 .front,
