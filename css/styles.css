@@ -84,6 +84,11 @@ header {
   transform-style: preserve-3d;
 }
 
+.question {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
 .sketch-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Two equal-width columns */
